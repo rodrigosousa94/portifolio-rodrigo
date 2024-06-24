@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="icon" type="image/x-icon" href="/assets/imgs/mstile-70x70.png">
+    <script src="assets/js/script.js" defer></script>
+    <title>Bem vindo ao meu portifólio</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    Rodrigo<span>.dev</span>
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portifolio">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="#contato">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#portifolio">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="overlay-menu" id="overlay-menu">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
+                        <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design
+                        impactante, funcionalidade intuitiva e otimização para resultados, estou pronto
+                        para criar a presença online dos seus sonhos.</p>
+
+                        <div class="btn-contato">
+                            <a href="#contato">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="assets/imgs/Untitled image (1).png" alt="img-topo" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-js"></i>
+                        
+                        <p>JavaScript é uma linguagem essencial para criar interatividade e dinamismo em sites, funcionando tanto no navegador quanto no servidor. </p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-react"></i>
+                        
+                        <p>ReactJS é uma biblioteca JavaScript para construir interfaces de usuário, permitindo a criação de componentes reutilizáveis e eficientes.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <img src="assets/imgs/logos_nextjs.svg" />
+                        
+                        <p>Next.js é um framework React que facilita a criação de aplicativos web rápidos e escaláveis, com suporte à renderização tanto no servidor quanto no cliente.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        
+                        <p>Bootstrap é um framework front-end que facilita o desenvolvimento web responsivo e rápido, fornecendo componentes pré-estilizados e um sistema de grid flexível.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <img src="assets/imgs/tailwind-icon.svg"/>
+                        
+                        <p>Tailwind CSS é um framework CSS utilitário que permite construir interfaces web customizáveis e responsivas de forma eficiente, através de classes de estilo diretamente no HTML.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <img class="mobile-icon" src="assets/imgs/smartphone.svg" />
+                        
+                        <p>Responsividade em web design refere-se à capacidade de uma página se adaptar e funcionar de maneira eficaz em diferentes dispositivos e tamanhos de tela, garantindo uma experiência de usuário consistente e acessível.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sobre" id="sobre"> 
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="assets/imgs/foto2.png" />
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU RODRIGO OLIVEIRA.</span></h2>
+                        <p>Sou um desenvolvedor web front-end, estudante de Análise e Desenvolvimento de Sistemas apaixonado por transformar ideias em experiências digitais envolventes. Trilhei um caminho fascinante na área militar até encontrar minha vocação na área de tecnologia.</p>
+                        <p>Essa descoberta me impulsionou a explorar e aprofundar meus conhecimentos em HTML, CSS, TailwindCSS, JavaScript, NextJS, React, dominando habilidades essenciais para criar interfaces atrativas e funcionais.</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/rodri.oliver94/" target="_blank"><button><i class="fa-brands fa-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/s-rodrigo/" target="_blank"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                            <a href="https://github.com/rodrigosousa94" target="_blank"><button><i class="fa-brands fa-github"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portifolio" id="portifolio">
+            <div class="interface">
+                <h2 class="titulo">ALGUNS PROJETOS DO MEU <span>PORTIFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(assets/imgs/img-neon.png);">
+                        <a href="https://rd-neonbank.netlify.app/" target="_blank">
+                            <div class="overlay">Projeto NEON BANK</div>
+                        </a>  
+                    </div>
+                    <div class="img-port" style="background-image: url(assets/imgs/img-cloudboost.png);">
+                        <a href="https://rodrigosousa94.github.io/cloudboost/" target="_blank">
+                            <div class="overlay">Projeto CloudBoost</div>
+                        </a>
+                    </div>
+                    <div class="img-port" style="background-image: url(assets/imgs/img-devflix.png);">
+                        <a href="https://devflix-rodrigosousa.netlify.app/" target="_blank">
+                            <div class="overlay">Projeto Devflix (TMDB API)</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="formulario" id="contato">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+                <form>
+                    <input type="text" placeholder="Seu nome:" required>
+                    <input type="email" placeholder="Seu email:" required>
+                    <input type="text" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="assets/imgs/logo.svg" style="width: 100px;" alt="logo-footer"/>
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/rodri.oliver94/" target="_blank"><button><i class="fa-brands fa-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/s-rodrigo/" target="_blank"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                        <a href="https://github.com/rodrigosousa94" target="_blank"><button><i class="fa-brands fa-github"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="line-footer borda">
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:r.oliveira5117@gmail.com">r.oliveira5117@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
